@@ -515,3 +515,10 @@ git commit -m "first commit"
 git remote add origin git@github.com:krishna040446/krishna.git
 git push -u origin master
 history
+git add .
+git ststus
+git status
+git clone git@github.com:krishna040446/git-demo.git
+ls
+touch git.txt
+vi git.txt
