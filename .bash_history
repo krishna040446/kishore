@@ -522,3 +522,56 @@ git clone git@github.com:krishna040446/git-demo.git
 ls
 touch git.txt
 vi git.txt
+yum install git
+ssh keygen
+git init
+ls -rlth
+touch rikanth.txt
+touch prakash.bkp
+ls
+git status
+touch .gitignore
+vi .gitignore
+cat .gitignore
+git add .
+ ls -rlth
+git commit -m "first"
+git config --global user.name "krishna"git config --global user.name 
+git config --global user.email "krishna@gmail.com
+git config --global user.email "krishna@gmail.com"
+git config --global user.name "krishna"
+git remote add origin git@github.com:krishna040446/kishore.git
+git push
+git push --set-upstream origin master
+git push -u origin master
+git pull
+git pull origin master
+git push -u origin master
+git fetch
+ssh keygen
+ssh
+cat /etc/ssh
+cat /etc/ssh.d
+chkconfig jennkins on
+chkconfig jenkins on
+yum install jenkins
+gitbbranch
+git branch
+git merge democlass list master
+git
+ssh -keygen -t rsa -b
+ssh =keygen -t rsa -b
+ ssh-keygen -t rsa -b 4096 -C "skkrish472@gmail.com"
+git pull
+ssh-add ~/.ssh/id_rsa
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_rsa
+ssh -keygen
+ssh =keygen -t rsa -b
+ssh -keygen
+ ssh-keygen -t rsa -b 4096 -C "skkrish472@gmail.com"
+cat /users/root/.ssh/id_rsa 
+ssh-add ~/.ssh/id_rsa
+git pull
+ssh-keygen
+cat /root/.ssh/id_rsa.pub
