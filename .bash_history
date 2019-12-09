@@ -575,3 +575,49 @@ ssh-add ~/.ssh/id_rsa
 git pull
 ssh-keygen
 cat /root/.ssh/id_rsa.pub
+ssh-keygen
+cat /root/.ssh/id
+cat /root/.ssh/id_rsa.pub
+git init
+git staus
+git commit -m "jgjjgjgh"
+git add .
+git status
+git push
+mkdir ashok
+cd
+cd ashok
+get init
+git init
+touch  1 2 3 4
+ls
+mkdir srinivas
+mkdir srinivas1
+ll
+git push
+git push origin ashok
+cd 
+git push origin ashok
+ls
+ls -la
+git fetch
+git log
+git branch
+yum install iostat*
+yum update
+google ping.com
+hostname
+git checkout list
+ssh/id_rsa
+atop
+ls
+yum install atop
+lscpu
+git init
+git remote add origin git@github.com:krishna040446/git-demo.git
+atop
+atop -r atop.log-12082019
+atop -r atop.log-12082019 -b 08:00
+top
+ps -ef
+ps -aux
