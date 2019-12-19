@@ -1,0 +1,108 @@
+c class StringExample
+{	public static void main(String[] args) class to measure time elapsed.
+*/
+
+public class Stopwatch
+{
+    private long startTime;
+    private long stopTime;
+
+    public static final double NANOS_PER_SEC = 1000000000.0;
+
+	/**
+	 start the stop watch.
+	*/
+	public void start(){
+		startTime = System.nanoTime();
+	}
+
+	/**
+	 stop the stop watch.
+	*/
+	public void stop()
+	{	stopTime = System.nanoTime();	}
+
+	/**
+	elapsed time in seconds.
+	@return the time recorded on the stopwatch in seconds
+	*/
+	public double time()
+	{	return (stopTime - startTime) / NANOS_PER_SEC;	}
+
+	public String toString(){
+	    return "elapsed time: " + time() + " seconds.";
+	}
+
+	/**
+	elapsed time in nanoseconds.
+	@return the time recorded on the stopwatch in nanoseconds
+	*/
+	public long timeInNanoseconds()
+	{	return (stopTime - startTime);	}
+}
+	{	String s1 = "Computer Science";
+		int x = 307;
+		String s2 = s1 + " " + x;
+		String s3 = s2.substring(10,17);
+		String s4 = "is fun";
+		String s5 = s2 + s4;
+		
+		System.out.println("s1: " + s1);
+		System.out.println("s2: " + s2);
+		System.out.println("s3: " + s3);
+		System.out.println("s4: " + s4);
+		System.out.println("s5: " + s5);
+		
+		//showing effect of precedence
+		
+		x = 3;
+		int y = 5;
+		String s6 = x + y + "total";
+		String s7 = "total " + x + y;
+		String s8 = " " + x + y + "total";
+		System.out.println("s6: " + s6);
+		System.out.println("s7: " + s7);
+		System.out.println("s8: " + s8);
+	}
+}
+ A class to measure time elapsed.
+*/
+
+public class Stopwatch
+{
+    private long startTime;
+    private long stopTime;
+
+    public static final double NANOS_PER_SEC = 1000000000.0;
+
+	/**
+	 start the stop watch.
+	*/
+	public void start(){
+		startTime = System.nanoTime();
+	}
+
+	/**
+	 stop the stop watch.
+	*/
+	public void stop()
+	{	stopTime = System.nanoTime();	}
+
+	/**
+	elapsed time in seconds.
+	@return the time recorded on the stopwatch in seconds
+	*/
+	public double time()
+	{	return (stopTime - startTime) / NANOS_PER_SEC;	}
+
+	public String toString(){
+	    return "elapsed time: " + time() + " seconds.";
+	}
+
+	/**
+	elapsed time in nanoseconds.
+	@return the time recorded on the stopwatch in nanoseconds
+	*/
+	public long timeInNanoseconds()
+	{	return (stopTime - startTime);	}
+}
